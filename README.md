@@ -24,6 +24,7 @@ Alongside the written report, this repository contains **five shell scripts** th
 
 ## 📁 Repository Structure
 oss-audit-24BSA10085/
+
 ├── README.md
 
 ├── script1_system_identity.sh
