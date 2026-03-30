@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script 5: Enhanced Open Source Manifesto Generator
-# Author: Sameer Prajapati
+# Author: Siddhi Sharma
 
 echo "========================================"
 echo "     Open Source Manifesto Generator"
