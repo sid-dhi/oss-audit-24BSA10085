@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script 2: FOSS Package Inspector
-# Author: Sameer Prajapati
+# Author: Siddhi Sharma
 
 PACKAGE="git"
 
