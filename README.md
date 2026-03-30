@@ -27,15 +27,15 @@ oss-audit-24BSA10085/
 
 ├── README.md
 
-├── script1_system_identity.sh
+├── script1.sh
 
-├── script2_package_inspector.sh
+├── script2.sh
 
-├── script3_disk_auditor.sh
+├── script3.sh
 
-├── script4_log_analyzer.sh
+├── script4.sh
 
-└── script5_manifesto.sh
+└── script5.sh
 
 
 ---
@@ -44,15 +44,20 @@ oss-audit-24BSA10085/
 
 | # | Script Name | Purpose | Key Concepts |
 |---|-------------|---------|---------------|
-| 1 | `script1_system_identity.sh` | Displays Linux distribution, kernel version, logged-in user, uptime, and OS license | Variables, `echo`, command substitution `$()` |
-| 2 | `script2_package_inspector.sh` | Checks if Git is installed, shows version/license, prints philosophy using case statement | `dpkg`, `grep`, `case` statement |
-| 3 | `script3_disk_auditor.sh` | Loops through system directories, reports size, owner, and permissions | `for` loop, `du -sh`, `ls -ld`, `awk` |
-| 4 | `script4_log_analyzer.sh` | Reads a log file, counts keyword occurrences, displays last 5 matching lines | `while read` loop, `if-then`, counters, `$1`, `$2` |
-| 5 | `script5_manifesto.sh` | Asks interactive questions, generates personalized manifesto text file | `read -p`, string concatenation, file writing `>`, `date` |
+| 1 | `script1.sh` | Displays Linux distribution, kernel version, logged-in user, uptime, and OS license | Variables, `echo`, command substitution `$()` |
+| 2 | `script2.sh` | Checks if Git is installed, shows version/license, prints philosophy using case statement | `dpkg`, `grep`, `case` statement |
+| 3 | `script3.sh` | Loops through system directories, reports size, owner, and permissions | `for` loop, `du -sh`, `ls -ld`, `awk` |
+| 4 | `script4.sh` | Reads a log file, counts keyword occurrences, displays last 5 matching lines | `while read` loop, `if-then`, counters, `$1`, `$2` |
+| 5 | `script5.sh` | Asks interactive questions, generates personalized manifesto text file | `read -p`, string concatenation, file writing `>`, `date` |
 
 ---
 
+🚀 How to Run the Scripts
+Step 1: Make all scripts executable
+chmod +x *.sh
+
 ## 💻 Requirements / Dependencies
+
 
 - **Operating System:** Linux (Ubuntu 22.04 LTS or later recommended)
 - **Shell:** Bash (`#!/bin/bash`)
