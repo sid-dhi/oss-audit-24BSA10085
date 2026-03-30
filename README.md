@@ -53,7 +53,9 @@ oss-audit-24BSA10085/
 ---
 
 🚀 How to Run the Scripts
+
 Step 1: Make all scripts executable
+
 chmod +x *.sh
 
 ## 💻 Requirements / Dependencies
