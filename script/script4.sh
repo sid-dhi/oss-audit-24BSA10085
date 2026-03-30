@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script 4: Smart Log File Analyzer
-# Author: Sameer Prajapati
+# Author: Siddhi Sharma
 
 KEYWORD=${2:-"error"}
 
