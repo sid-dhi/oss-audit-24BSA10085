@@ -25,10 +25,15 @@ Alongside the written report, this repository contains **five shell scripts** th
 ## 📁 Repository Structure
 oss-audit-24BSA10085/
 ├── README.md
+
 ├── script1_system_identity.sh
+
 ├── script2_package_inspector.sh
+
 ├── script3_disk_auditor.sh
+
 ├── script4_log_analyzer.sh
+
 └── script5_manifesto.sh
 
 
